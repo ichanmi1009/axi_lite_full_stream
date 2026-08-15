@@ -25,5 +25,3 @@ module color_controller (
         end
     end
 endmodule
-
-`
