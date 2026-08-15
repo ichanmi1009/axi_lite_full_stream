@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Aug 14 08:02:08 2026
+# Process ID: 23680
+# Current directory: D:/working/ondeviceAI/260812_VGA/260812_VGA.runs/impl_1
+# Command line: vivado.exe -log top_ov7670.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_ov7670.tcl -notrace
+# Log file: D:/working/ondeviceAI/260812_VGA/260812_VGA.runs/impl_1/top_ov7670.vdi
+# Journal file: D:/working/ondeviceAI/260812_VGA/260812_VGA.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top_ov7670.tcl -notrace
