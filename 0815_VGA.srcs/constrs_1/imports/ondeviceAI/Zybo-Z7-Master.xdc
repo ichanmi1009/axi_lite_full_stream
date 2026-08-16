@@ -169,24 +169,24 @@ set_false_path -from [get_ports {d[*] pclk vsync href}] \
 
 ## Pmod Header JD
 ## Pmod VGA pins 1~4 : RED
-set_property -dict { PACKAGE_PIN T14 IOSTANDARD LVCMOS33 } [get_ports {vga_red[0]}];
-set_property -dict { PACKAGE_PIN T15 IOSTANDARD LVCMOS33 } [get_ports {vga_red[1]}];
-set_property -dict { PACKAGE_PIN P14 IOSTANDARD LVCMOS33 } [get_ports {vga_red[2]}];
-set_property -dict { PACKAGE_PIN R14 IOSTANDARD LVCMOS33 } [get_ports {vga_red[3]}];
+set_property -dict { PACKAGE_PIN T14 IOSTANDARD LVCMOS33 } [get_ports {vgaRed[0]}];
+set_property -dict { PACKAGE_PIN T15 IOSTANDARD LVCMOS33 } [get_ports {vgaRed[1]}];
+set_property -dict { PACKAGE_PIN P14 IOSTANDARD LVCMOS33 } [get_ports {vgaRed[2]}];
+set_property -dict { PACKAGE_PIN R14 IOSTANDARD LVCMOS33 } [get_ports {vgaRed[3]}];
 
 ## Pmod VGA pins 7~10 : BLUE
-set_property -dict { PACKAGE_PIN U14 IOSTANDARD LVCMOS33 } [get_ports {vga_blue[0]}];
-set_property -dict { PACKAGE_PIN U15 IOSTANDARD LVCMOS33 } [get_ports {vga_blue[1]}];
-set_property -dict { PACKAGE_PIN V17 IOSTANDARD LVCMOS33 } [get_ports {vga_blue[2]}];
-set_property -dict { PACKAGE_PIN V18 IOSTANDARD LVCMOS33 } [get_ports {vga_blue[3]}];
+set_property -dict { PACKAGE_PIN U14 IOSTANDARD LVCMOS33 } [get_ports {vgaBlue[0]}];
+set_property -dict { PACKAGE_PIN U15 IOSTANDARD LVCMOS33 } [get_ports {vgaBlue[1]}];
+set_property -dict { PACKAGE_PIN V17 IOSTANDARD LVCMOS33 } [get_ports {vgaBlue[2]}];
+set_property -dict { PACKAGE_PIN V18 IOSTANDARD LVCMOS33 } [get_ports {vgaBlue[3]}];
 
 
 ## Pmod Header JE
 ## Pmod VGA pins 1~4 : GREEN
-set_property -dict { PACKAGE_PIN V12 IOSTANDARD LVCMOS33 } [get_ports {vga_green[0]}];
-set_property -dict { PACKAGE_PIN W16 IOSTANDARD LVCMOS33 } [get_ports {vga_green[1]}];
-set_property -dict { PACKAGE_PIN J15 IOSTANDARD LVCMOS33 } [get_ports {vga_green[2]}];
-set_property -dict { PACKAGE_PIN H15 IOSTANDARD LVCMOS33 } [get_ports {vga_green[3]}];
+set_property -dict { PACKAGE_PIN V12 IOSTANDARD LVCMOS33 } [get_ports {vgaGreen[0]}];
+set_property -dict { PACKAGE_PIN W16 IOSTANDARD LVCMOS33 } [get_ports {vgaGreen[1]}];
+set_property -dict { PACKAGE_PIN J15 IOSTANDARD LVCMOS33 } [get_ports {vgaGreen[2]}];
+set_property -dict { PACKAGE_PIN H15 IOSTANDARD LVCMOS33 } [get_ports {vgaGreen[3]}];
 
 ## Pmod VGA pins 7~8 : Horizontal / Vertical Sync
 set_property -dict { PACKAGE_PIN V13 IOSTANDARD LVCMOS33 } [get_ports {h_sync}];
